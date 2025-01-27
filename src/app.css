@@ -8,8 +8,10 @@
   --color-basil: #7ea92c;
 }
 
+@font-face {
+}
 :root {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -25,7 +27,7 @@
 
 body {
   background-color: #f8efd9;
-  text-color: #000000
+  text-color: #000000;
   margin: 0;
   display: flex;
   min-width: 480px;
@@ -34,7 +36,7 @@ body {
 
 #app {
   margin: 0 auto;
-  width: 100%
+  width: 100%;
 }
 
 button {
