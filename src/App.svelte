@@ -5,6 +5,8 @@
     import "./app.css";
 </script>
 
-<main class="bg-crust">
-    <Title />
+<main class="bg-crust w-full place-content-center">
+    <div class="w-full place-content-center">
+        <Title />
+    </div>
 </main>
