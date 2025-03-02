@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/sliceathon/",
+  base: "/", // Set this back to sliceathon once the custom domain expires
   plugins: [svelte(), tailwindcss()],
 });
