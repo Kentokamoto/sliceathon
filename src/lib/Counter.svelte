@@ -1,5 +1,5 @@
 <script>
-  const judgementDate = new Date("April 20, 2025 10:00:00").getTime(); // This is not the final date
+  const judgementDate = new Date("2025-06-14T16:00:00.000-07:00").getTime(); //PDT
   let days = 0;
   let hours = 0;
   let minutes = 0;
@@ -35,9 +35,4 @@
       <h1>Seconds</h1>
     </div>
   </div>
-  <p
-    class="bg-red-sauce text-yellow-cheese text-l text-center font-bold uppercase sm:text-xl"
-  >
-    DATE is still TBD regardless of Timer
-  </p>
 </div>

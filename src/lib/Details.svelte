@@ -5,9 +5,9 @@
     </h1>
     <div class="text-basil basis-full p-2 sm:p-10">
       <h2 class="text-l text-center font-bold sm:text-left">Date</h2>
-      <p class="text-center sm:text-left">TBD</p>
+      <p class="text-center sm:text-left">June 14, 2025</p>
       <h2 class="text-l text-center font-bold sm:text-left">Start Time</h2>
-      <p class="text-center sm:text-left">TBD</p>
+      <p class="text-center sm:text-left">4:00PM</p>
       <h2 class="text-l text-center font-bold sm:text-left">Location</h2>
       <p class="text-center sm:text-left">Gasworks Park</p>
     </div>
