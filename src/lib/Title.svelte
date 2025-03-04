@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="bg-yellow-cheese flex w-full flex-row">
+<header class="bg-yellow-cheese flex w-full flex-row">
   <i
     class="fa-solid fa-pizza-slice text-red-sauce flex-none place-content-center p-4 text-xl sm:p-8 sm:text-4xl"
   ></i>
@@ -16,4 +16,4 @@
   <i
     class="fa-solid fa-pizza-slice text-red-sauce flex-none place-content-center p-4 text-xl sm:p-8 sm:text-4xl"
   ></i>
-</div>
+</header>

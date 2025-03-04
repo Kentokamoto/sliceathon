@@ -1,5 +1,5 @@
 <div class="flex flex-col place-content-center sm:flex-row">
-  <div class="flex basis-full flex-col place-content-center">
+  <section class="flex basis-full flex-col place-content-center">
     <h1 class="text-basil text-center text-xl font-bold sm:pl-2">
       Race Details
     </h1>
@@ -11,9 +11,9 @@
       <h2 class="text-l text-center font-bold sm:text-left">Location</h2>
       <p class="text-center sm:text-left">Gasworks Park</p>
     </div>
-  </div>
+  </section>
 
-  <div class="flex basis-full place-content-center p-4 sm:p-0">
+  <section class="flex basis-full place-content-center p-4 sm:p-0">
     <div class="">
       <h1 class="text-basil text-center text-xl font-bold">Course Route</h1>
       <iframe
@@ -24,5 +24,5 @@
         name="Slice-a-Thon "
       ></iframe>
     </div>
-  </div>
+  </section>
 </div>
