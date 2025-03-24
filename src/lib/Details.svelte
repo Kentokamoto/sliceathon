@@ -17,7 +17,7 @@
     <h1 class="text-basil text-center text-2xl font-bold">Course Route</h1>
     <iframe
       class="sm:w-l w-s place-content-center md:w-xl"
-      src="https://routes.rungoapp.com/embedded/F6oUp8z73Y?units=km&hasTurns=false&hasPOIs=true&hideMetrics=false&isStatic=true"
+      src="https://routes.rungoapp.com/embedded/F6oUp8z73Y?units=miles&hasTurns=false&hasPOIs=true&hideMetrics=false&isStatic=true"
       height="650px"
       name="Slice-a-Thon "
     ></iframe>
