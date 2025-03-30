@@ -42,6 +42,10 @@
       title: "I don’t think I can make the race anymore, what should I do?",
       description: `No problem, please just send us an email at ${mailtoLink} to let us know you won't be joining so we can adjust our pizza orders accordingly!`,
     },
+    {
+      title: "I have different question!",
+      description: `Email it to us at ${mailtoLink}`,
+    },
   ];
 </script>
 
