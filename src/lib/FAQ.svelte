@@ -13,11 +13,20 @@
       description: "We’ll be around for 3 hours after the start of the race",
     },
     {
+      title: "What do I need to pay for?",
+      description:
+        "You'll need to pay for the slice of pizza at each checkpoint. Each slice averages out to about $4.50.",
+    },
+    {
+      title: "How do I prove I bought pizza?",
+      description:
+        "After you pay for your pizza at each checkpoint, take a selfie of you eating your slice with the store sign in the background",
+    },
+    {
       title: "Will there be signs on the course?",
       description:
         "No. We recommend downloading the route onto your phone or watch to avoid getting lost. We will also have several runners at different speeds familiar with the route who can help guide the way",
     },
-
     {
       title: "Will there be any aid stations?",
       description:
