@@ -26,6 +26,6 @@
   <p
     class=" flex-15 origin-top transform pt-2 text-black transition-all duration-300 ease-in-out"
   >
-    {content}
+    {@html content}
   </p>
 </details>
