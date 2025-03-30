@@ -2,6 +2,8 @@
   import Accordion from "./Accordion.svelte";
 
   const mailtoLink = `<a href="mailto:seattlesliceathon@gmail.com" class="text-red-sauce hover:text-red-700 underline">seattlesliceathon@gmail.com</a>`;
+  const gpxLink = `<a href="./public/Seattle-Slice-a-Thon-2025.gpx" class="text-red-sauce hover:text-red-700 underline">Slice-A-Thon route</a>`;
+
   const faqs = [
     {
       title: "Should I treat this as a race?",
@@ -24,8 +26,7 @@
     },
     {
       title: "Will there be signs on the course?",
-      description:
-        "No. We recommend downloading the route onto your phone or watch to avoid getting lost. We will also have several runners at different speeds familiar with the route who can help guide the way",
+      description: `No. We recommend downloading the route onto your phone or watch to avoid getting lost. We will also have several runners at different speeds familiar with the route who can help guide the way. You can download the route here: ${gpxLink}`,
     },
     {
       title: "Will there be any aid stations?",
