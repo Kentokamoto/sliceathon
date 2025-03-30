@@ -14,6 +14,7 @@
     <div class="flex justify-center">
       <div class="item-center flex w-5xl flex-col">
         <Details />
+        <FAQ />
         <Registration />
       </div>
     </div>

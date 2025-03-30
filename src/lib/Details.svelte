@@ -1,6 +1,6 @@
-<div class="flex flex-col place-content-center sm:flex-row">
+<div class="mt-3 flex flex-col place-content-center sm:flex-row">
   <section class="m-4 flex basis-full flex-col place-content-center sm:m-0">
-    <h1 class="text-basil text-center text-2xl font-bold sm:pl-2">
+    <h1 class="text-red-sauce text-center text-2xl font-bold sm:pl-2">
       Race Details
     </h1>
     <div class="basis-full p-2 text-xl text-black sm:p-10">
@@ -14,9 +14,9 @@
   </section>
 
   <section class="flex basis-full flex-col place-content-center p-4 sm:p-0">
-    <h1 class="text-basil text-center text-2xl font-bold">Course Route</h1>
+    <h1 class="text-red-sauce text-center text-2xl font-bold">Course Route</h1>
     <iframe
-      class="sm:w-l w-s place-content-center md:w-xl"
+      class="sm:w-l w-s place-content-center rounded-lg md:w-xl"
       src="https://routes.rungoapp.com/embedded/F6oUp8z73Y?units=miles&hasTurns=false&hasPOIs=true&hideMetrics=false&isStatic=true"
       height="650px"
       name="Slice-a-Thon "

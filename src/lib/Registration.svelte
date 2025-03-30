@@ -19,9 +19,9 @@
   });
 </script>
 
-<div class="m-4 flex flex-col place-content-center sm:flex-row">
+<div class="my-4 flex w-full flex-col place-content-center sm:flex-row">
   <section class="flex basis-full flex-col place-content-center p-4 sm:p-0">
-    <h1 class="text-basil text-center text-2xl font-bold">Register Here</h1>
+    <h1 class="text-red-sauce text-center text-2xl font-bold">Register Here</h1>
     <iframe
       id={iframeId}
       title="2025 Slice-A-Thon Registration"
@@ -30,9 +30,10 @@
       src={iframeSrc}
       frameborder="0"
       style="border:none;"
-      scrolling="yes"
+      scrolling="no"
       width="100%"
       height="200px"
+      class="rounded-lg"
     >
     </iframe>
   </section>

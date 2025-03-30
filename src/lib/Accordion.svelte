@@ -1,21 +1,31 @@
 <script>
   let { title, content } = $props();
-  let isOpen = $state(false);
-  function onclick() {
-    isOpen = !isOpen;
-  }
 </script>
 
-<div>
-  <button {onclick} class="flex w-full flex-row">
-    <div class="flex-15 text-left">
-      {title}
-    </div>
-    <div class="flex-1">{isOpen ? "-" : "+"}</div>
-  </button>
-  {#if isOpen}
-    <div>
-      {content}
-    </div>
-  {/if}
-</div>
+<details
+  class="border-yellow-cheese group mt-2 flex w-full flex-col rounded-lg border px-5 py-3"
+>
+  <summary
+    class="text-red-sauce flex w-full flex-15 cursor-pointer list-none items-center justify-between text-left font-bold"
+  >
+    {title}
+    <svg
+      class="h-6 w-6 transform transition-transform duration-200 group-open:rotate-180"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </summary>
+  <p
+    class=" flex-15 origin-top transform pt-2 text-black transition-all duration-300 ease-in-out"
+  >
+    {content}
+  </p>
+</details>
