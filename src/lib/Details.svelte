@@ -1,9 +1,7 @@
-<div class="mt-3 flex flex-col place-content-center sm:flex-row">
-  <section class="m-4 flex basis-full flex-col place-content-center sm:m-0">
-    <h1 class="text-red-sauce text-center text-2xl font-bold sm:pl-2">
-      Race Details
-    </h1>
-    <div class="basis-full p-2 text-xl text-black sm:p-10">
+<div class="mt-4 flex flex-col place-content-center sm:flex-row">
+  <section class=" flex flex-3 basis-full flex-col place-content-center">
+    <h1 class="text-red-sauce text-center text-2xl font-bold">Race Details</h1>
+    <div class="basis-full text-xl text-black">
       <h2 class=" text-left text-xl font-extrabold">Date</h2>
       <p class="text-ltext-left text-black">June 14, 2025</p>
       <h2 class="text-left text-xl font-extrabold">Start Time</h2>
@@ -13,10 +11,13 @@
     </div>
   </section>
 
-  <section class="flex basis-full flex-col place-content-center p-4 sm:p-0">
+  <section
+    class="flex flex-3 basis-full flex-col place-content-center p-4 sm:p-0"
+  >
     <h1 class="text-red-sauce text-center text-2xl font-bold">Course Route</h1>
     <iframe
-      class="sm:w-l w-s place-content-center rounded-lg md:w-xl"
+      title="Slice-a-thon route"
+      class="place-content-center rounded-lg"
       src="https://routes.rungoapp.com/embedded/F6oUp8z73Y?units=miles&hasTurns=false&hasPOIs=true&hideMetrics=false&isStatic=true"
       height="650px"
       name="Slice-a-Thon "

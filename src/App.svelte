@@ -5,6 +5,7 @@
   import FAQ from "./lib/FAQ.svelte";
   import Counter from "./lib/Counter.svelte";
   import "./app.css";
+  import Story from "./lib/Story.svelte";
 </script>
 
 <main class="bg-crust w-full place-content-center">
@@ -12,7 +13,8 @@
     <Title />
     <Counter />
     <div class="flex justify-center">
-      <div class="item-center flex w-5xl flex-col">
+      <div class="item-center mx-10 w-4xl flex-col">
+        <Story />
         <Details />
         <FAQ />
         <Registration />

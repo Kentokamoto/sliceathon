@@ -51,7 +51,11 @@
 
 <div class="flex w-full flex-col place-content-center sm:flex-row">
   <div class="flex basis-full flex-col">
-    <h1 class="text-red-sauce text-xl font-bold sm:pl-2">FAQ</h1>
+    <h1
+      class="text-red-sauce text-center text-xl font-bold sm:pl-2 sm:text-left"
+    >
+      FAQ
+    </h1>
     {#each faqs as faq}
       <Accordion title={faq.title} content={faq.description} />
     {/each}
