@@ -46,6 +46,11 @@
       title: "I have different question!",
       description: `Email it to us at ${mailtoLink}`,
     },
+    {
+      title: "Will there be pie?",
+      description:
+        "Yes. In addition to the pizza pies, your last task in finishing the race is to eat a slice of pie.",
+    },
   ];
 </script>
 
