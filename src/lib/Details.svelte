@@ -20,7 +20,7 @@
       data-embed-type="route"
       data-embed-id="3356103777858949274"
       data-style="standard"
-      data-map-hash="11.05/47.6304/-122.3255/0/3"
+      data-map-hash="11.08/47.6303/-122.3237"
       data-from-embed="true"
     ></div>
     <script src="https://strava-embeds.com/embed.js"></script>
