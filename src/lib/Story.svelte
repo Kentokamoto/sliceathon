@@ -20,7 +20,7 @@
     closer together until someone finally said “well, couldn’t we do both?” And
     just like that, the clouds parted, a rainbow emerged across the sky and a
     cat and a dog high-fived, all as if to emphatically say “yes, we can do
-    both!”.
+    both!”
   </p>
 
   <p class="mb-3">
