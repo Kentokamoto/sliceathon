@@ -1,8 +1,9 @@
 <script>
 	import Accordion from './Accordion.svelte';
 
+	import { base } from '$app/paths';
 	const mailtoLink = `<a href="mailto:seattlesliceathon@gmail.com" class="text-red-sauce hover:text-red-700 underline">seattlesliceathon@gmail.com</a>`;
-	const gpxLink = `<a href="/Seattle-Slice-a-Thon-2025.gpx" class="text-red-sauce hover:text-red-700 underline">Slice-A-Thon route</a>`;
+	const gpxLink = `<a href="${base}/Seattle-Slice-a-Thon-2025.gpx" class="text-red-sauce hover:text-red-700 underline">Slice-A-Thon route</a>`;
 
 	const faqs = [
 		{
