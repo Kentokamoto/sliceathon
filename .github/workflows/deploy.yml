@@ -34,11 +34,7 @@ jobs:
         with:
           # Upload dist folder
           path: 'build/'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
-    # Single deploy job since we're just deploying
   deploy:
     needs: build_site
     runs-on: ubuntu-latest
