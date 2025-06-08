@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-site:
+  build_site:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
