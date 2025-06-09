@@ -1,11 +1,12 @@
 <script lang="ts">
+	import '../app.css';
 	import Title from '$lib/Title.svelte';
 	import Counter from '$lib/Counter.svelte';
 
 	let { children } = $props();
 </script>
 
-<main class="bg-crust w-full place-content-center">
+<main class="bg-crust w-full">
 	<div class="w-full place-content-center">
 		<Title />
 		<Counter />
