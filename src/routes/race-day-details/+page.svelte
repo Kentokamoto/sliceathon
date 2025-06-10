@@ -2,47 +2,47 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="mt-5">
-	<section>
+<div class="my-5">
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Location</h1>
-		<article>
+		<article class="mt-5">
 			<img src="{base}/Slice-a-Thon_Start_Location.png" alt="Slice-a-Thon Start Location" />
-			<p>
+			<p class="my-1">
 				The race starts and ends at <a
 					class="text-red-sauce underline hover:text-red-700"
 					href="https://maps.app.goo.gl/hXq7kmrzxygdaSeR7">Gasworks park</a
 				>. We will be gathering by the area marked by the red arrow above. We will have a table and
 				sign so you know where to look when you arrive.
 			</p>
-			<h2 class="text-center text-xl font-bold text-black">Parking</h2>
-			<p>
+			<h2 class="mt-2 text-center text-xl font-bold text-black">Parking</h2>
+			<p class="my-1">
 				Parking is widely available. Please pay attention to parking signs as some streets may have
 				parking time limits.
 			</p>
 		</article>
 	</section>
-	<section>
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Arrival</h1>
-		<article>
-			<p>
+		<article class="mt-5">
+			<p class="my-1">
 				Check In begins at 3:30PM If you ordered a t-shirt, you can pick up your shirt at this time.
 				If you did not order a shirt but would like to purchase one, we bought extra but supply and
 				sizes are limited.
 			</p>
-			<p>
+			<p class="my-1">
 				We’ll kick-off festivities with a short opening ceremony at 3:55PM, and start the race
 				itself at 4:00PM
 			</p>
-			<h2 class="text-center text-xl font-bold text-black">Gear Check</h2>
-			<p>
+			<h2 class="mt-2 text-center text-xl font-bold text-black">Gear Check</h2>
+			<p class="my-1">
 				There will not be a gear check station at the start/finish. Please keep personal belongings
 				in your car and carry what you need while you are on your run.
 			</p>
 		</article>
 	</section>
-	<section>
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Route</h1>
-		<article>
+		<article class="mt-5">
 			<!-- TODO: Add links to strava route and gpx file -->
 			<div
 				class="strava-embed-placeholder"
@@ -53,7 +53,7 @@
 			></div>
 			<script src="https://strava-embeds.com/embed.js"></script>
 
-			<p>
+			<p class="my-1">
 				The route is available on Strava with all the pizza spots marked Strava Route. You can use
 				your phone to navigate on Strava or if you’d like to add the route to your watch, follow
 				your brand’s instructions to load the GPX file onto your watch. You can download the route
@@ -62,7 +62,7 @@
 					href="{base}/Seattle-Slice-a-Thon-2025.gpx">Slice-a-Thon Route</a
 				>
 			</p>
-			<p>
+			<p class="my-1">
 				We will also have 3 volunteers running in different pace groups who know the route and will
 				be introduced during our opening ceremony. The paces will be 7:30, 9:00 and 10:30 (not
 				including pizza order/eating time).
@@ -72,55 +72,64 @@
 			<p></p>
 		</article>
 	</section>
-	<section>
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">How It Works</h1>
-		<article>
-			<p>As you navigate the route, you will stop by 4 pizza spots in the following order:</p>
+		<article class="mt-5">
+			<p class="my-1">
+				As you navigate the route, you will stop by 4 pizza spots in the following order:
+			</p>
 
 			<ol class="list-inside list-decimal">
-				<li>Fremont Pizza</li>
-				<div>
-					<p>3510 Fremont Ave N, Seattle, WA 98103</p>
-					<a
-						class="text-red-sauce underline hover:text-red-700"
-						href="https://maps.app.goo.gl/88yVE1wMjQ1xa2zaA">Link</a
-					>
-				</div>
-				<li>Post Alley Pizza</li>
-				<div>
-					<p>1123 Post Ave, Seattle, WA 98101</p>
-					<a
-						class="text-red-sauce underline hover:text-red-700"
-						href="https://maps.app.goo.gl/yuucowwJ1XgYECh3A">Link</a
-					>
-				</div>
-				<li>Pagliacci (Arboretum)</li>
-				<div>
-					<p>3015 E Madison St, Seattle, WA 98112</p>
-					<a
-						class="text-red-sauce underline hover:text-red-700"
-						href="https://maps.app.goo.gl/Yb37AXzsdyBjvea68">Link</a
-					>
-				</div>
-				<li>Tivoli’s</li>
-				<div>
-					<p>730 N 34th St, Seattle, WA 98103</p>
-					<a
-						class="text-red-sauce underline hover:text-red-700"
-						href="https://maps.app.goo.gl/x3E4uRvceBqbsrTp7">Link</a
-					>
-					<p>
-						<strong>Note: </strong>Please go to the garage area near the parking lot off to the left
-						of the store to buy your pizza
-					</p>
-					<img src="{base}/Tivoli_Garage.png" alt="Tivoli Garage" />
-				</div>
+				<li class="mb-3">
+					<strong>Fremont Pizza</strong>
+					<div>
+						<a
+							class="text-red-sauce underline hover:text-red-700"
+							href="https://maps.app.goo.gl/88yVE1wMjQ1xa2zaA"
+							>3510 Fremont Ave N, Seattle, WA 98103</a
+						>
+					</div>
+				</li>
+				<li class="mb-3">
+					<strong>Post Alley Pizza</strong>
+					<div>
+						<a
+							class="text-red-sauce underline hover:text-red-700"
+							href="https://maps.app.goo.gl/yuucowwJ1XgYECh3A">1123 Post Ave, Seattle, WA 98101</a
+						>
+					</div>
+				</li>
+				<li class="mb-3">
+					<strong>Pagliacci (Arboretum)</strong>
+					<div>
+						<a
+							class="text-red-sauce underline hover:text-red-700"
+							href="https://maps.app.goo.gl/Yb37AXzsdyBjvea68"
+							>3015 E Madison St, Seattle, WA 98112</a
+						>
+					</div>
+				</li>
+				<li class="mb-3">
+					<strong>Tivoli’s</strong>
+					<div>
+						<a
+							class="text-red-sauce underline hover:text-red-700"
+							href="https://maps.app.goo.gl/x3E4uRvceBqbsrTp7">730 N 34th St, Seattle, WA 98103</a
+						>
+						<p>
+							<strong>Note:</strong> Please go to the garage area near the parking lot off to the left
+							of the store to buy your pizza
+						</p>
+						<img src="{base}/Tivoli_Garage.png" alt="Tivoli Garage" />
+						<p class="my-1">
+							Please keep in mind that Tivoli’s is the <strong>LAST STOP</strong>. You will be
+							running past Tivoli’s at the very beginning of the run, but don’t stop there until the
+							end.
+						</p>
+					</div>
+				</li>
 			</ol>
-			<p>
-				Please keep in mind that Tivoli’s is the <strong>LAST STOP</strong>. You will be running
-				past Tivoli’s at the very beginning of the run, but don’t stop there until the end.
-			</p>
-			<p>
+			<p class="my-3">
 				Once you arrive at each spot, order any pizza at the counter. After you receive your pizza,
 				take a selfie with it in front of the shop. Photos are necessary to verify 1st/2nd/3rd place
 				prices but optional otherwise.
@@ -129,10 +138,10 @@
 			<img src="{base}/Example_Selfie.png" alt="Example pizza selfie" />
 		</article>
 	</section>
-	<section>
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Finishing The Race</h1>
-		<article>
-			<p>
+		<article class="mt-5">
+			<p class="my-1">
 				After completing the race, all participants will receive a trophy for completing the
 				Slice-A-Thon. We will have prizes for 1st, 2nd, and 3rd place finishers, along with a prize
 				for best costume.
@@ -140,19 +149,19 @@
 			<p>The prizes will be handed out 2.5 hours after the start of the race.</p>
 		</article>
 	</section>
-	<section>
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">What to Bring</h1>
 		<article>
-			<p>
+			<p class="my-1">
 				There are <strong>no</strong> aid stations on the course so make sure you have a way to stay
 				hydrated between pizza locations. Be sure to check the weather and plan clothes accordingly.
 			</p>
 		</article>
 	</section>
-	<section>
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Submitting Results</h1>
 		<article>
-			<p>
+			<p class="my-1">
 				If you would like to share your Strava activity post-race, send us a link to your activity
 				at <a
 					href="mailto:seattlesliceathon@gmail.com"
@@ -161,10 +170,10 @@
 			</p>
 		</article>
 	</section>
-	<section>
+	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Important Reminder</h1>
 		<article>
-			<p>
+			<p class="my-1">
 				This is meant to be a fun run, so once it begins, it’s up to you to make the most of it -
 				whatever that means to you. We won’t be actively keeping tabs on all participants during the
 				run.
