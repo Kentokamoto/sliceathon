@@ -1,6 +1,4 @@
 <script>
-	import '../app.css';
-
 	import Story from '$lib/Story.svelte';
 	import Details from '$lib/Details.svelte';
 	import FAQ from '$lib/FAQ.svelte';

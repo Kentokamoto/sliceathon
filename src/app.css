@@ -26,7 +26,7 @@
 
 body {
 	background-color: #f8efd9;
-	text-color: #000000;
+	color: #000000;
 	margin: 0;
 	display: flex;
 	min-width: 375px;
