@@ -48,6 +48,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+
+      - name: List downloaded files (debug)
+        run: |
+          echo "Downloaded artifact contents:"
+          find . -name "*.png" -o -name "*.webp" -o -name "*.avif" | head -10
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
