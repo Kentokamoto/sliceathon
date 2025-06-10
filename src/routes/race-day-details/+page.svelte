@@ -1,10 +1,18 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div class="mt-5">
 	<section>
 		<h1 class="text-center text-2xl font-bold text-black">Location</h1>
 		<article>
+			<img src="{base}/Slice-a-Thon_Start_Location.png" alt="Slice-a-Thon Start Location" />
 			<p>
-				The race starts and ends at Gasworks park. We will be gathering by the area marked by the
-				red arrow above. We will have a table and sign so you know where to look when you arrive.
+				The race starts and ends at <a
+					class="text-red-sauce underline hover:text-red-700"
+					href="https://maps.app.goo.gl/hXq7kmrzxygdaSeR7">Gasworks park</a
+				>. We will be gathering by the area marked by the red arrow above. We will have a table and
+				sign so you know where to look when you arrive.
 			</p>
 			<h2 class="text-center text-xl font-bold text-black">Parking</h2>
 			<p>
@@ -36,10 +44,23 @@
 		<h1 class="text-center text-2xl font-bold text-black">Route</h1>
 		<article>
 			<!-- TODO: Add links to strava route and gpx file -->
+			<div
+				class="strava-embed-placeholder"
+				data-embed-type="route"
+				data-embed-id="3356103777858949274"
+				data-style="standard"
+				data-from-embed="false"
+			></div>
+			<script src="https://strava-embeds.com/embed.js"></script>
+
 			<p>
-				The route is available on Strava with all the pizza spots marked Strava Route You can use
+				The route is available on Strava with all the pizza spots marked Strava Route. You can use
 				your phone to navigate on Strava or if you’d like to add the route to your watch, follow
-				your brand’s instructions to load the GPX file onto your watch.
+				your brand’s instructions to load the GPX file onto your watch. You can download the route
+				here: <a
+					class="text-red-sauce underline hover:text-red-700"
+					href="{base}/Seattle-Slice-a-Thon-2025.gpx">Slice-a-Thon Route</a
+				>
 			</p>
 			<p>
 				We will also have 3 volunteers running in different pace groups who know the route and will
@@ -92,6 +113,7 @@
 						<strong>Note: </strong>Please go to the garage area near the parking lot off to the left
 						of the store to buy your pizza
 					</p>
+					<img src="{base}/Tivoli_Garage.png" alt="Tivoli Garage" />
 				</div>
 			</ol>
 			<p>
@@ -104,6 +126,7 @@
 				prices but optional otherwise.
 			</p>
 			<!-- TODO: Add example picture -->
+			<img src="{base}/Example_Selfie.png" alt="Example pizza selfie" />
 		</article>
 	</section>
 	<section>
