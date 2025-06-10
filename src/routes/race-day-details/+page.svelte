@@ -1,12 +1,15 @@
 <script>
 	import { base } from '$app/paths';
+	import exampleSelfie from '$lib/assets/Example_Selfie.png';
+	import sliceathonLocation from '$lib/assets/Slice-a-Thon_Start_Location.png';
+	import tivoliGarage from '$lib/assets/Tivoli_Garage.png';
 </script>
 
 <div class="my-5">
 	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Location</h1>
 		<article class="mt-5">
-			<img src="{base}/Slice-a-Thon_Start_Location.png" alt="Slice-a-Thon Start Location" />
+			<img src={sliceathonLocation} alt="Slice-a-Thon Start Location" />
 			<p class="my-1">
 				The race starts and ends at <a
 					class="text-red-sauce underline hover:text-red-700"
@@ -120,7 +123,7 @@
 							<strong>Note:</strong> Please go to the garage area near the parking lot off to the left
 							of the store to buy your pizza
 						</p>
-						<img src="{base}/Tivoli_Garage.png" alt="Tivoli Garage" />
+						<img src={tivoliGarage} alt="Tivoli Garage" />
 						<p class="my-1">
 							Please keep in mind that Tivoli’s is the <strong>LAST STOP</strong>. You will be
 							running past Tivoli’s at the very beginning of the run, but don’t stop there until the
@@ -135,7 +138,7 @@
 				prices but optional otherwise.
 			</p>
 			<!-- TODO: Add example picture -->
-			<img src="{base}/Example_Selfie.png" alt="Example pizza selfie" />
+			<img src={exampleSelfie} alt="Example pizza selfie" />
 		</article>
 	</section>
 	<section class="mb-5">
