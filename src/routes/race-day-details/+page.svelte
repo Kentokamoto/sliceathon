@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths';
-	import exampleSelfie from '$lib/assets/Example_Selfie.png';
+	import exampleSelfie from '$lib/assets/Example_Selfie.png?inline';
 	import sliceathonLocation from '$lib/assets/Slice-a-Thon_Start_Location.png?inline';
-	import tivoliGarage from '$lib/assets/Tivoli_Garage.png';
+	import tivoliGarage from '$lib/assets/Tivoli_Garage.png?inline';
 </script>
 
 <div class="my-5">
