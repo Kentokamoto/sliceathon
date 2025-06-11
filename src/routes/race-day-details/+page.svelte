@@ -66,7 +66,7 @@
 			</p>
 			<p class="my-1">
 				We will also have 3 volunteers running in different pace groups who know the route and will
-				be introduced during our opening ceremony. The paces will be 8:00, 9:00 and 10:00 (not
+				be introduced during our opening ceremony. The paces will be 8:00, 9:00, and 10:00 (not
 				including pizza order/eating time).
 			</p>
 			There are no course markings so please make sure you have a way to navigate around. Will will also
