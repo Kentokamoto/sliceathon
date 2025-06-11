@@ -46,7 +46,6 @@
 	<section class="mb-5">
 		<h1 class="text-center text-2xl font-bold text-black">Route</h1>
 		<article class="mt-5">
-			<!-- TODO: Add links to strava route and gpx file -->
 			<div
 				class="strava-embed-placeholder"
 				data-embed-type="route"
@@ -73,6 +72,51 @@
 			There are no course markings so please make sure you have a way to navigate around. Will will also
 			stagger the start of the race to avoid crowding at pizza locations
 			<p></p>
+			<h2 class="mt-2 text-center text-xl font-bold text-black">Bathroom Stops</h2>
+			<p>
+				Public restrooms will be available along the route at key points. We’ve mapped out existing
+				public facilities that will be open and accessible on race day. Here’s what to keep in mind:
+			</p>
+			<ul class="list-inside list-disc">
+				<li>
+					<strong>Locations</strong>: Some restrooms will be available at:
+					<ul class="list-inside list-disc indent-8">
+						<li>
+							<a
+								class="text-red-sauce underline hover:text-red-700"
+								href="https://maps.app.goo.gl/V7f8FjX3voiR31kq7">Gasworks Park</a
+							>
+						</li>
+						<li>
+							Near <a
+								class="text-red-sauce underline hover:text-red-700"
+								href="https://maps.app.goo.gl/y8jAdFEifVJKW1et6">Miners Landing</a
+							>
+						</li>
+						<li>
+							<a
+								class="text-red-sauce underline hover:text-red-700"
+								href="https://maps.app.goo.gl/Yb37AXzsdyBjvea68">Pagliacci's (Arboretum)</a
+							>
+						</li>
+						<li>
+							<a
+								class="text-red-sauce underline hover:text-red-700"
+								href="https://maps.app.goo.gl/w81mUyWGTjgyCGb48">Arboretum</a
+							>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<strong>Plan Ahead</strong>: We recommend reviewing the route map beforehand and noting
+					the restroom locations in case you need to plan a stop.
+				</li>
+				<li>
+					<strong>Courtesy Reminder</strong> Since these are public facilities, please be respectful
+					and leave them clean for others.
+				</li>
+			</ul>
 		</article>
 	</section>
 	<section class="mb-5">
