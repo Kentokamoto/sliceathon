@@ -87,6 +87,7 @@
 								href="https://maps.app.goo.gl/V7f8FjX3voiR31kq7">Gasworks Park</a
 							>
 						</li>
+						<li>In <a href="https://maps.app.goo.gl/pvmsBfGsosFDcVWc9">Seattle Center</a></li>
 						<li>
 							Near <a
 								class="text-red-sauce underline hover:text-red-700"
