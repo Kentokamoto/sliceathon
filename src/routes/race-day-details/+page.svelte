@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths';
-	import exampleSelfie from '$lib/assets/Example_Selfie.webp';
-	import sliceathonLocation from '$lib/assets/Slice-a-Thon_Start_Location.webp';
-	import tivoliGarage from '$lib/assets/Tivoli_Garage.webp';
+	import exampleSelfie from '$lib/assets/Example_Selfie.webp?inline';
+	import sliceathonLocation from '$lib/assets/Slice-a-Thon_Start_Location.webp?inline';
+	import tivoliGarage from '$lib/assets/Tivoli_Garage.webp?inline';
 </script>
 
 <div class="my-5">
