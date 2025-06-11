@@ -29,21 +29,8 @@ jobs:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           bun run build
-      - name: Comprehensive build analysis
-        run: |
-          echo "=== COMPLETE BUILD ANALYSIS ==="
-          echo "Build directory size:"
-          du -sh build/
-          echo "Total files:"
-          find build -type f | wc -l
-          echo "All enhanced/processed images:"
-          find build -name "*.webp" -o -name "*.avif" -o -name "*enhanced*" | sort
-          echo "All PNG files:"
-          find build -name "*.png" | sort
-          echo "Asset directory contents:"
-          find build/_app -name "*" -type f | grep -E "\.(png|jpg|jpeg|webp|avif)" | sort
-          echo "HTML references to images:"
-          grep -r "src.*\.\(png\|webp\|avif\)" build/ | head -5
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -57,6 +44,7 @@ jobs:
     permissions:
       pages: write
       id-token: write
+      contents: read
 
     environment:
       name: github-pages
@@ -67,12 +55,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: github-pages
-
-      - name: List downloaded files (debug)
-        run: |
-          echo "Downloaded artifact contents:"
-          ls .
-          find . -name "*.png" -o -name "*.webp" -o -name "*.avif" | head -10
 
       - name: Deploy
         id: deployment
