@@ -232,4 +232,34 @@
 			</p>
 		</article>
 	</section>
+	<section class="mb-5">
+		<h1 class="text-center text-2xl font-bold text-black">Charity Donation</h1>
+		<article>
+			<p class="my-1">
+				If you enjoyed Slice-A-Thon, please consider spreading the love and making a contribution to
+				a local charity. Here are some of our favorites, but please feel free to donate to any
+				you’re passionate about.
+			</p>
+			<ul class="list-inside list-disc">
+				<li>
+					NAMI Seattle: <a
+						class="text-red-sauce underline hover:text-red-700"
+						href="https://namiseattle.org/">https://namiseattle.org/</a
+					>
+				</li>
+				<li>
+					Mary's Place Seattle: <a
+						class="text-red-sauce underline hover:text-red-700"
+						href="https://www.marysplaceseattle.org/">https://www.marysplaceseattle.org/</a
+					>
+				</li>
+				<li>
+					Boys and Girls Club of King County: <a
+						class="text-red-sauce underline hover:text-red-700"
+						href="https://positiveplace.org/">https://positiveplace.org/</a
+					>
+				</li>
+			</ul>
+		</article>
+	</section>
 </div>
