@@ -1,5 +1,5 @@
 <script>
-	import groupPhoto from '$lib/assets/slice-a-thon_group_photo.webp';
+	import groupPhoto from '$lib/assets/slice-a-thon_group_photo.webp?inline';
 </script>
 
 <div class="my-5 place-items-center">
