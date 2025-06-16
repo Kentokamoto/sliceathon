@@ -1,6 +1,6 @@
 <script>
 	import { base } from '$app/paths';
-	import mascotThumb from '$lib/assets/Slice-a-Thon_Mascot_thumb.webp';
+	import mascotThumb from '$lib/assets/Slice-a-Thon_Mascot_thumb.webp?inline';
 </script>
 
 <a href="{base}/">
