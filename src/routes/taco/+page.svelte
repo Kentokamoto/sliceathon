@@ -13,6 +13,9 @@
 	const faqs = [];
 	const jotformIframeId = 'JotFormIFrame-251845910128154';
 </script>
+<svelte:head>
+	<title>2025 Seattle Taco Ocho</title>
+</svelte:head>
 
 <Title iteration="First Annual" title="Seattle Taco Ocho" />
 <Counter judgementDate={eventDate.getTime()}/>
