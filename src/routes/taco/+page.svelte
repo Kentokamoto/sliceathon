@@ -15,6 +15,7 @@
 </script>
 <svelte:head>
 	<title>2025 Seattle Taco Ocho</title>
+	<meta name="description" content="Eight miles, eight tacos" />
 </svelte:head>
 
 <Title iteration="First Annual" title="Seattle Taco Ocho" />
