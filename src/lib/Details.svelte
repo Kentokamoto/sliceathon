@@ -1,5 +1,5 @@
 <script>
-  let {eventDate, eventLocation} = $props();
+  let {eventDate, eventLocation, children} = $props();
 </script>
 
 <div class="mt-4 flex flex-col place-content-center sm:flex-row">
@@ -29,14 +29,7 @@
     class="flex flex-3 basis-full flex-col place-content-center p-4 sm:p-0"
   >
     <h1 class="text-red-sauce text-center text-2xl font-bold">Course Route</h1>
-    <div
-      class="strava-embed-placeholder"
-      data-embed-type="route"
-      data-embed-id="3356103777858949274"
-      data-style="standard"
-      data-map-hash="11.08/47.6303/-122.3237"
-      data-from-embed="true"
-    ></div>
+    {@render children()}
     <script src="https://strava-embeds.com/embed.js"></script>
   </section>
 </div>

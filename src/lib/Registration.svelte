@@ -1,8 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
-
-  let iframeId = "JotFormIFrame-250816626970059";
-  let iframeSrc = "https://form.jotform.com/250816626970059";
+  let {children, iframeId} = $props();
 
   onMount(() => {
     const script = document.createElement("script");
@@ -22,19 +20,6 @@
 <div class="my-4 flex w-full flex-col place-content-center sm:flex-row">
   <section class="flex basis-full flex-col place-content-center p-4 sm:p-0">
     <h1 class="text-red-sauce text-center text-2xl font-bold">Register Here</h1>
-    <iframe
-      id={iframeId}
-      title="2025 Slice-A-Thon Registration"
-      allowtransparency
-      allow=""
-      src={iframeSrc}
-      frameborder="0"
-      style="border:none;"
-      scrolling="no"
-      width="100%"
-      height="200px"
-      class="rounded-lg"
-    >
-    </iframe>
+    {@render children()}
   </section>
 </div>
