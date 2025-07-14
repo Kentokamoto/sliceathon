@@ -8,6 +8,8 @@
 
 	const storyTitle = `Tacos Tacos and more Tacos`;
 	const storyParagraphs = [`Place Taco Ocho Paragraph Here`];
+	const eventDate = new Date('August 8, 2025 7:00 PM PDT');
+	const eventLocation = 'Northgate Station';
 </script>
 
 <Title iteration="First Annual" title="Seattle Taco Ocho" />
@@ -15,7 +17,7 @@
 <div class="flex justify-center">
 	<div class="item-center mx-10 w-4xl flex-col">
 		<Story {storyTitle} {storyParagraphs} />
-		<Details />
+		<Details {eventDate} {eventLocation}/>
 		<FAQ />
 		<Registration />
 	</div>
