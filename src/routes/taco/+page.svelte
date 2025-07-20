@@ -11,9 +11,9 @@
 		`Many years ago, on the ocho-th day, of the ocho-th month, at ocho o’clock Mountain
      Time, a traveler was making his way from Northgate to Capitol Hill, in search of the
      perfect street taco. As he was beginning to lose hope, he saw the distinct shadow of a food
-     truck. Knowing he’d never it make there on time walking, he began to run. Tired, hungry and 
+     truck. Knowing he’d never make it there on time walking, he began to run. Tired, hungry and 
      full love, the traveler began to sing as he arrived at the taco truck. Knowing they might 
-     be closed, he looked deep into his heart and these were the words that came out “no rompas 
+     be closed, he looked deep into his heart and these were the words that came out: “no rompas 
      mas, mi pobre corazón”, which translates to “don’t break my poor heart anymore”. Hearing 
      this, the taco truck operator smiled and reopened for the traveler.`,
 		`This year, we will honor the traveler’s great conquest by running, eating tacos and 
