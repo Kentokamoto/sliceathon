@@ -108,7 +108,7 @@
 <Counter judgementDate={eventDate.getTime()} />
 <div>
 	<div class="bg-basil flex flex-row place-content-center py-2 text-white">
-		<a class="font-bold text-white underline" href="/taco">Did you mean Taco Ocho?</a>
+		<a class="font-bold text-white underline" href="{base}/taco">Did you mean Taco Ocho?</a>
 	</div>
 </div>
 <div class="flex justify-center">
