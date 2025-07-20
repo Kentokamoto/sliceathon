@@ -99,8 +99,13 @@
 	let jotformIframeId = 'JotFormIFrame-250816626970059';
 </script>
 
+<svelte:head>
+	<title>2025 Seattle Slice-a-Thon</title>
+	<meta name="description" content="Eight miles, eight tacos" />
+</svelte:head>
+
 <Title iteration="First Annual" title="Seattle Slice-A-Thon" />
-<Counter judgementDate={eventDate.getTime()}/>
+<Counter judgementDate={eventDate.getTime()} />
 <div class="flex justify-center">
 	<div class="item-center mx-10 w-4xl flex-col">
 		<Story {storyParagraphs} {storyTitle} />
