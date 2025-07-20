@@ -12,16 +12,18 @@
      Time, a traveler was making his way from Northgate to Capitol Hill, in search of the
      perfect street taco. As he was beginning to lose hope, he saw the distinct shadow of a food
      truck. Knowing he’d never make it there on time walking, he began to run. Tired, hungry and 
-     full love, the traveler began to sing as he arrived at the taco truck. Knowing they might 
+     full of love, the traveler began to sing as he arrived at the taco truck. Knowing they might 
      be closed, he looked deep into his heart and these were the words that came out: “no rompas 
      mas, mi pobre corazón”, which translates to “don’t break my poor heart anymore”. Hearing 
      this, the taco truck operator smiled and reopened for the traveler.`,
 		`This year, we will honor the traveler’s great conquest by running, eating tacos and 
      singing “no rompas mas, mi pobre corazón”.  Whether you enjoy running, eating tacos or 
      spontaneous singing and line dancing, this race has got a little something for everyone.
-     Looking forward to seeing you there at 7:00 PM Pacific Time on August 8th`
+     Looking forward to seeing you there at 8:00 PM Mountain Time (7:00 PM Pacific)
+     on August 8th`
 	];
-	const eventDate = new Date('August 8, 2025 7:00 PM PDT');
+	const eventDate = new Date('August 8, 2025 8:00 PM MDT');
+
 	const eventLocation = 'Northgate Station';
 	const faqs = [
 		{
@@ -59,6 +61,14 @@
 			title: 'How many tacos do I have to eat?',
 			description: `The official event is ocho tacos over the three locations. With a partner,
                     the tacos can be spread amongst two people (cuatro & cuatro, cinco & tres, etc)`
+		},
+		{
+			title: 'How much does a taco cost?',
+			description: `Tacos cost around $3-4`
+		},
+		{
+			title: 'Do they accept card?',
+			description: `No. Only cash is accepted`
 		},
 		{
 			title: 'What if I don’t want to eat all of the tacos?',
