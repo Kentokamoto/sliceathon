@@ -1,31 +1,14 @@
 {
-	"useTabs": true,
+	"useTabs": false,
 	"singleQuote": true,
-	"trailingComma": "none",
-	"printWidth": 100,
+	"trailingComma": "es5",
+	"printWidth": 120,
 	"proseWrap": "always",
 	"htmlWhitespaceSensitivity": "css",
 	"plugins": [
+		"eslint-plugin-prettier",
 		"prettier-plugin-svelte",
 		"prettier-plugin-tailwindcss"
 	],
-	"overrides": [
-		{
-			"files": "*.svelte",
-			"options": {
-				"parser": "svelte"
-			}
-		},
-		{
-			"files": [
-				"*.js",
-				"*.ts",
-				"*.svelte"
-			],
-			"options": {
-				"printWidth": 100,
-				"proseWrap": "always",
-			}
-		}
-	]
+	"overrides": []
 }
