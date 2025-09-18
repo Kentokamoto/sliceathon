@@ -6,8 +6,8 @@
 	"proseWrap": "always",
 	"htmlWhitespaceSensitivity": "css",
 	"plugins": [
+		"eslint-plugin-react",
 		"eslint-plugin-prettier",
-		"prettier-plugin-svelte",
 		"prettier-plugin-tailwindcss"
 	],
 	"overrides": []
