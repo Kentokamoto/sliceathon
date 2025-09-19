@@ -107,35 +107,9 @@ src/
 └── app.html               # HTML template
 ```
 
-## Features
-
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
-- **Event Countdown**: Real-time countdown to the event
-- **Interactive FAQ**: Expandable FAQ sections
-- **Registration Form**: Embedded JotForm registration
-- **Route Integration**: GPX file download for the running route
-- **Multiple Pages**: Dedicated pages for different event aspects
-- **Accessibility**: Proper semantic HTML and ARIA labels
-
 ## Deployment
-
-The application can be deployed to any static hosting service:
-
-- **Vercel**: Automatic deployments from Git
-- **Netlify**: Drag and drop or Git integration
-- **GitHub Pages**: Using GitHub Actions
-- **AWS S3**: Static website hosting
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Run tests: `npm run test`
-5. Run linting: `npm run lint`
-6. Commit your changes: `git commit -m "Add feature"`
-7. Push to the branch: `git push origin feature-name`
-8. Submit a pull request
+The application is meant to be deployed to GitHub Pages as a static site. 
+Use the [GitHub Workflow](./.github/workflows/deploy.yml) to deploy
 
 ## License
 
@@ -144,7 +118,3 @@ This project is private and proprietary to the Seattle Slice-A-Thon organizers.
 ## Contact
 
 For questions about the event, contact: seattlesliceathon@gmail.com
-
----
-
-*Run, eat, repeat! 🍕🏃‍♂️*
